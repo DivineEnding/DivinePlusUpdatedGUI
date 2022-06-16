@@ -29,6 +29,8 @@ local INFJUMP_Roundify_12px_5 = Instance.new("ImageLabel")
 Main.Name = "Main"
 Main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 Main.ResetOnSpawn = false
+Main.Draggable = true
+
 
 Main_2.Name = "Main"
 Main_2.Parent = Main
@@ -357,11 +359,7 @@ DELETETOOL.TextColor3 = Color3.fromRGB(0, 0, 0)
 DELETETOOL.TextScaled = true
 DELETETOOL.TextSize = 14.000
 DELETETOOL.TextWrapped = true
-DELETETOOL.MouseButton1Down:connect(function()
-		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("[Divine+] Enabled Btools!", "All")
 
-	local a=Instance.new("Tool")a.RequiresHandle=false;a.Name="Delete"local b=game.Players.LocalPlayer;a.Parent=b:WaitForChild("Backpack")local c=b:GetMouse()local d=false;local e=Instance.new("SelectionBox")e.Color3=Color3.new(0,0.6,0.6,6)e.Parent=b.PlayerGui;local c=b:GetMouse()local e=Instance.new("SelectionBox")e.Color3=Color3.new(0,0.6,0.6,6)e.Parent=b.PlayerGui;e.Name="derp"c.Move:connect(function()if d then local f=c.Target;if not f then e.Adornee=nil else if f:IsA("BasePart")then e.Adornee=f else e.Adornee=nil end end end end)a.Equipped:Connect(function()d=true end)a.Unequipped:Connect(function()e.Adornee=nil;d=false end)a.Activated:Connect(function()if e.Adornee then local g=Instance.new("Explosion")g.Parent=game.Workspace;g.Position=e.Adornee.Position;g.BlastPressure=0;local h=Instance.new("Sound")h.SoundId="http://www.roblox.com/asset/?id=315775189"h.Parent=game.Workspace;h:Play()e.Adornee:Destroy()e.Adornee=nil end end)
-end)
 
 INFJUMP_Roundify_12px_5.Name = "INFJUMP_Roundify_12px"
 INFJUMP_Roundify_12px_5.Parent = DELETETOOL
