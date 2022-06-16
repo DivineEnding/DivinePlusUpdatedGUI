@@ -1,5 +1,4 @@
--- Gui to Lua
--- Version: 3.2
+--Divine+ b1.2 | DivineEnding
 
 -- Instances:
 
@@ -172,7 +171,7 @@ DIVINE.Position = UDim2.new(0, 0, -0.0102110822, 0)
 DIVINE.Size = UDim2.new(0, 841, 0, 22)
 DIVINE.ZIndex = 2
 DIVINE.Font = Enum.Font.Ubuntu
-DIVINE.Text = "Divine+ | DivineEnding#1234"
+DIVINE.Text = "Divine+ b1.0 | DivineEnding#1234"
 DIVINE.TextColor3 = Color3.fromRGB(0, 0, 0)
 DIVINE.TextScaled = true
 DIVINE.TextSize = 14.000
