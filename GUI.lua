@@ -1,4 +1,3 @@
---Divine+ b1.2 | DivineEnding
 
 -- Instances:
 
@@ -30,7 +29,6 @@ local INFJUMP_Roundify_12px_5 = Instance.new("ImageLabel")
 Main.Name = "Main"
 Main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 Main.ResetOnSpawn = false
-Main.Draggable = true
 
 Main_2.Name = "Main"
 Main_2.Parent = Main
@@ -257,7 +255,7 @@ FUTUREINJECTOR.TextScaled = true
 FUTUREINJECTOR.TextSize = 14.000
 FUTUREINJECTOR.TextWrapped = true
 FUTUREINJECTOR.MouseButton1Down:connect(function()
-					game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("[Divine+] Injected Future!", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("[Divine+] Injected Future!", "All")
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua'),true))()
 end)
 
@@ -291,7 +289,7 @@ VAPEINJECTOR.TextScaled = true
 VAPEINJECTOR.TextSize = 14.000
 VAPEINJECTOR.TextWrapped = true
 VAPEINJECTOR.MouseButton1Down:connect(function()
-				game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("[Divine+] Injected Vxpe!", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("[Divine+] Injected Vxpe!", "All")
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua'),true))()
 end)
 
