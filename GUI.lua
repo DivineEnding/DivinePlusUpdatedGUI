@@ -389,7 +389,7 @@ local function EKZQX_fake_script() -- Main.Keybind
 	local UserInputService = game:GetService("UserInputService")
 	
 	UserInputService.InputBegan:Connect(function(KeyCode)
-		if KeyCode.KeyCode == Enum.KeyCode.RightShift then
+		if KeyCode.KeyCode == Enum.KeyCode.RightControl then
 			if Open then
 				FrameObject:TweenPosition((PositionClosed), "Out", "Quart")
 				Open = false
