@@ -29,7 +29,6 @@ local INFJUMP_Roundify_12px_5 = Instance.new("ImageLabel")
 Main.Name = "Main"
 Main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 Main.ResetOnSpawn = false
-Main.Draggable = true
 
 
 Main_2.Name = "Main"
